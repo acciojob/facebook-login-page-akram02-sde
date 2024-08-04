@@ -1,33 +1,66 @@
 /*  your css code here. If applicable */
-body{
-	background-color:#f6f6f6;
-	display:flex;
-	justify-content:center;
-	height:100vh;
-}
+ body {
+            background-color: #f6f6f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
-.left{
-	width:450px;
-	margin-top:70px;
-	display:inline-block;
-}
+        .left, .right {
+            margin-top: 70px;
+        }
 
-form{
-	display:flex;
-	width:300px;
-	padding:20px;
-	flex-direction:column;
-	gap:10px;
-}
+        .left {
+            width: 450px;
+            display: inline-block;
+        }
 
-button{
-	border-radius:5px;
-	padding:10px 20px;
-	border:none;
-	text-decoration:none;
-}
+        .right {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-section{
-	display:flex;
-	justify-content:center;
-}
+        form {
+            display: flex;
+            width: 100%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #ccc;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        input {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .login-button {
+            background-color: #1877f2;
+            border-radius: 5px;
+            padding: 10px 20px;
+            color: white;
+            border: none;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+            color: #1877f2;
+        }
+
+        .signup {
+            background-color: #42b72a;
+            border-radius: 5px;
+            padding: 10px 20px;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
